@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320" prefWidth="640" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="320" id="image" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="640">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/blue setup.png" visible="1"/>
+    <org.develnext.jphp.ext.javafx.support.control.CanvasEx focusTraversable="false" height="320" id="canvas" layoutX="0" layoutY="0" styleClass="" width="640"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-canvas" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="320" id="imageAlt" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="640">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/blue setup.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="168" layoutY="-8" prefHeight="88" prefWidth="376" styleClass="label " text="Настройка" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="60"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Separator focusTraversable="false" id="separator" layoutX="0" layoutY="72" orientation="HORIZONTAL" prefHeight="8" prefWidth="640" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <ColorPicker focusTraversable="true" id="colorPicker" layoutX="240" layoutY="80" prefHeight="32" prefWidth="144" styleClass="combo-box-base color-picker "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-colorPicker" visible="1"/>
+    <Separator focusTraversable="false" id="separatorAlt" layoutX="0" layoutY="112" orientation="HORIZONTAL" prefHeight="8" prefWidth="640" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separatorAlt" visible="1"/>
+    <Separator focusTraversable="false" id="separator3" layoutX="0" layoutY="144" orientation="HORIZONTAL" prefHeight="8" prefWidth="640" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator3" visible="1"/>
+    <PasswordField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="passwordField" layoutX="8" layoutY="120" prefColumnCount="12" prefHeight="25" prefWidth="624" promptText="" text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="password-field"/>
+      </styleClass>
+    </PasswordField>
+    <Data cursor="DEFAULT" enabled="1" id="data-passwordField" visible="1"/>
+    <PaginationEx alignment="CENTER" columnHalignment="LEFT" focusTraversable="false" hgap="5" hintText="" id="pagination" layoutX="152" layoutY="152" maxHeight="-1" maxPageCount="7" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="HORIZONTAL" pageSize="20" prefHeight="32" prefWidth="344" rowValignment="CENTER" selectedPage="0" showPrevNext="false" showTotal="false" styleClass="nav " textColor="#000000" total="200" vgap="5">
+      <children>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="36" layoutY="2" prefHeight="-1" prefWidth="-1" text="1" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="button"/>
+            <String fx:value="nav-item"/>
+            <String fx:value="selected"/>
+          </styleClass>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="70" layoutY="3" prefHeight="-1" prefWidth="-1" styleClass="button nav-item " text="2" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="102" layoutY="3" prefHeight="-1" prefWidth="-1" styleClass="button nav-item " text="3" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="134" layoutY="3" prefHeight="-1" prefWidth="-1" styleClass="button nav-item " text="4" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="166" layoutY="3" prefHeight="-1" prefWidth="-1" styleClass="button nav-item " text="5" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="198" layoutY="3" prefHeight="-1" prefWidth="-1" styleClass="button nav-item " text="6" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="230" layoutY="3" prefHeight="-1" prefWidth="-1" styleClass="button nav-item " text="7" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="275" layoutY="3" prefHeight="-1" prefWidth="-1" text="10" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="button"/>
+            <String fx:value="nav-item"/>
+            <String fx:value="nav-item-last"/>
+          </styleClass>
+        </Button>
+      </children>
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </PaginationEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-pagination" visible="1"/>
+    <Separator focusTraversable="false" id="separator4" layoutX="0" layoutY="184" orientation="HORIZONTAL" prefHeight="8" prefWidth="640" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator4" visible="1"/>
+    <DatePicker editable="true" focusTraversable="true" id="dateEdit" layoutX="256" layoutY="192" prefHeight="32" prefWidth="144" promptText="" showWeekNumbers="false">
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="combo-box-base"/>
+        <String fx:value="date-picker"/>
+        <String fx:value="combo-box-base"/>
+        <String fx:value="date-picker"/>
+      </styleClass>
+    </DatePicker>
+    <Data cursor="DEFAULT" enabled="1" format="dd.MM.yyyy" id="data-dateEdit" value="01.01.2000" visible="1"/>
+    <Separator focusTraversable="false" id="separator5" layoutX="0" layoutY="224" orientation="HORIZONTAL" prefHeight="8" prefWidth="640" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator5" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="8" layoutY="232" prefColumnCount="12" prefHeight="25" prefWidth="624" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <Separator focusTraversable="false" id="separator6" layoutX="0" layoutY="256" orientation="HORIZONTAL" prefHeight="8" prefWidth="640" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator6" visible="1"/>
+    <Slider blockIncrement="10" focusTraversable="true" id="slider" layoutX="8" layoutY="264" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="14" prefWidth="624" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider " value="0"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-slider" visible="1"/>
+    <Separator focusTraversable="false" id="separator7" layoutX="0" layoutY="280" orientation="HORIZONTAL" prefHeight="8" prefWidth="640" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator7" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="272" layoutY="288" prefHeight="24" prefWidth="88" styleClass="button " text="Дальше" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+  </children>
+</AnchorPane>
